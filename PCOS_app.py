@@ -7,7 +7,7 @@ import google.generativeai as genai
 pipeline = joblib.load("PCOS_project.pkl")
 
 # --- Gemini setup ---
-GEMINI_API_KEY = "AIzaSyC5xZUT-JlaAcI2Ufg7ni0mewfqFgRNkGQ"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
